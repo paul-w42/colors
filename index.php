@@ -9,6 +9,11 @@
 </head>
 <body>
 <h1>Pick a Color</h1>
-
+<form method="post" action="confirm.php">
+    <label><input type="radio" name="color" value="red">Red</label><br>
+    <label><input type="radio" name="color" value="blue">Blue</label><br>
+    <label><input type="radio" name="color" value="yellow">Yellow</label><br>
+    <input type="submit" value="Submit">
+</form>
 </body>
 </html>
